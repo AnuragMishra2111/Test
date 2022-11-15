@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048778702923612600B90440 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487786F2923612600B90440 /* CustomHeaderView.swift */; };
+		048778722923614200B90440 /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048778712923614200B90440 /* CustomHeaderView.xib */; };
+		0487787529236B3800B90440 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487787329236B3800B90440 /* LocationTableViewCell.swift */; };
+		0487787629236B3800B90440 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0487787429236B3800B90440 /* LocationTableViewCell.xib */; };
 		04ED80312918E89400CA2C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED80302918E89400CA2C1C /* AppDelegate.swift */; };
 		04ED80332918E89400CA2C1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED80322918E89400CA2C1C /* SceneDelegate.swift */; };
 		04ED80352918E89400CA2C1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED80342918E89400CA2C1C /* ViewController.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0487786F2923612600B90440 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		048778712923614200B90440 /* CustomHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		0487787329236B3800B90440 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		0487787429236B3800B90440 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationTableViewCell.xib; sourceTree = "<group>"; };
 		04ED802D2918E89400CA2C1C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED80302918E89400CA2C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ED80322918E89400CA2C1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +131,10 @@
 				04ED80392918E89A00CA2C1C /* Assets.xcassets */,
 				04ED803B2918E89A00CA2C1C /* LaunchScreen.storyboard */,
 				04ED803E2918E89A00CA2C1C /* Info.plist */,
+				0487786F2923612600B90440 /* CustomHeaderView.swift */,
+				048778712923614200B90440 /* CustomHeaderView.xib */,
+				0487787329236B3800B90440 /* LocationTableViewCell.swift */,
+				0487787429236B3800B90440 /* LocationTableViewCell.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -154,7 +166,6 @@
 				70C6B2CC0C17C2DD2B090F74 /* Pods-testTests.debug.xcconfig */,
 				69C0CBA6805E877128CACC2E /* Pods-testTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,9 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048778722923614200B90440 /* CustomHeaderView.xib in Resources */,
 				04ED803D2918E89A00CA2C1C /* LaunchScreen.storyboard in Resources */,
 				04ED803A2918E89A00CA2C1C /* Assets.xcassets in Resources */,
 				04ED80382918E89400CA2C1C /* Main.storyboard in Resources */,
+				0487787629236B3800B90440 /* LocationTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048778702923612600B90440 /* CustomHeaderView.swift in Sources */,
+				0487787529236B3800B90440 /* LocationTableViewCell.swift in Sources */,
 				04ED80352918E89400CA2C1C /* ViewController.swift in Sources */,
 				04ED80312918E89400CA2C1C /* AppDelegate.swift in Sources */,
 				04ED80332918E89400CA2C1C /* SceneDelegate.swift in Sources */,
